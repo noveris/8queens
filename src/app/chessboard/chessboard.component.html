@@ -1,0 +1,8 @@
+<div class="chessboard-container">
+    <div *ngFor="let row of rows">
+      <div class="chessboard-cell" *ngFor="let col of cols" id="r{{ row }}c{{ col }}">r{{ row }}c{{ col }}</div>
+    </div>
+  </div>
+  
+  <button id="runButton" (click)="run()">Run</button>
+  <button id="clearButton" (click)="clear()">Clear</button>

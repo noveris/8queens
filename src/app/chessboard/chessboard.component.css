@@ -1,0 +1,55 @@
+.chessboard-container {
+    float: left;
+    margin-left: 25px;
+    border-style: groove;
+  }
+  
+  .chessboard-row {
+    border-style: groove;
+  }
+  
+  .chessboard-cell {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    background-image: none;
+  }
+  
+  .chessboard-cell-queen {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url("/assets/queen_icon.jpeg");
+    background-size: contain;
+  }
+
+  #runButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 50px;
+  }
+
+  #clearButton {
+    background-color: #FFB500; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 50px;
+
+  }
